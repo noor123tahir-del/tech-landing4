@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TaskFlow | Simple tasking for busy teams</title>
+  <meta name="description" content="TaskFlow helps teams capture tasks, prioritise work and ship faster. Try it free." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="logo" href="#hero" aria-label="TaskFlow home">
+        <span class="logo-mark">TF</span><span class="logo-text">TaskFlow</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <!-- Hamburger icon -->
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#cta" class="btn btn--small">Try free</a></li>
+        <li>
+          <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode" title="Toggle theme">
+            <!-- Sun / Moon inline SVG (no external icon library) -->
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path id="themeIcon" d="M12 4a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V5a1 1 0 0 1 1-1Zm7 7a1 1 0 0 1 1 1h2a1 1 0 1 1 0 2h-2a1 1 0 1 1-1-3Zm-7 7a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1ZM4 12a1 1 0 0 1 1-1H3a1 1 0 1 1 0-2h2a1 1 0 0 1-1 3Zm12.95 6.536a1 1 0 0 1 1.414-1.414l1.414 1.414a1 1 0 0 1-1.414 1.414l-1.414-1.414ZM4.636 5.05A1 1 0 1 1 6.05 3.636L4.636 2.222A1 1 0 1 1 3.222 3.636L4.636 5.05Zm13.142-2.828A1 1 0 0 1 19.192 3.2l-1.414 1.415A1 1 0 0 1 16.364 3.2l1.414-1.414ZM5.05 19.364a1 1 0 1 1 1.414 1.414L5.05 22.192A1 1 0 1 1 3.636 20.778L5.05 19.364ZM12 7.5A4.5 4.5 0 1 0 12 16.5 4.5 4.5 0 0 0 12 7.5Z"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section id="hero" class="section hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow">New · Simple · Fast</p>
+          <h1>Ship work faster with a clutter‑free task manager.</h1>
+          <p class="lead">TaskFlow helps your team capture tasks, focus on priorities and deliver on time — on mobile, tablet and desktop.</p>
+          <form class="inline-form" aria-label="Start free trial">
+            <label class="sr-only" for="email">Email</label>
+            <input id="email" type="email" placeholder="Work email" required>
+            <button class="btn" type="submit">Start free trial</button>
+          </form>
+          <p class="tiny">No credit card required · 14‑day free trial</p>
+        </div>
+
+        <div class="hero__media" aria-hidden="true">
+          <svg viewBox="0 0 240 240" class="mockup" role="img" aria-label="TaskFlow brand graphic">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="s1" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="rgba(2,6,23,.18)"/>
+    </filter>
+  </defs>
+  <circle cx="120" cy="120" r="100" fill="#e2e8f0" opacity=".35"/>
+  <circle cx="120" cy="120" r="92" fill="url(#g1)" filter="url(#s1)"/>
+  <circle cx="120" cy="120" r="46" fill="white"/>
+</svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section">
+      <div class="container">
+        <h2 class="section-title">Features that keep you moving</h2>
+        <div class="grid features__grid">
+          <article class="card feature">
+            <div class="feature__icon" aria-hidden="true">📋</div>
+            <h3>Capture in seconds</h3>
+            <p>Add tasks with natural language and keyboard shortcuts.</p>
+          </article>
+
+          <article class="card feature">
+            <div class="feature__icon" aria-hidden="true">⚡</div>
+            <h3>Prioritise clearly</h3>
+            <p>Labels, due‑dates, and focus mode help you work on what matters.</p>
+          </article>
+
+          <article class="card feature">
+            <div class="feature__icon" aria-hidden="true">🤝</div>
+            <h3>Team friendly</h3>
+            <p>Share lists, assign owners, and track progress at a glance.</p>
+          </article>
+
+          <article class="card feature">
+            <div class="feature__icon" aria-hidden="true">🔔</div>
+            <h3>Smart reminders</h3>
+            <p>Never miss a deadline with calendar sync and notifications.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section--tint">
+      <div class="container">
+        <h2 class="section-title">Loved by fast‑moving teams</h2>
+        <div class="grid testimonials__grid">
+          <figure class="card testimonial">
+            <blockquote>“TaskFlow cut our status meetings in half. We ship faster, with less stress.”</blockquote>
+            <figcaption>— Samira A., Product Manager</figcaption>
+          </figure>
+
+          <figure class="card testimonial">
+            <blockquote>“The focus mode is brilliant. My daily plan is crystal clear.”</blockquote>
+            <figcaption>— Daniel K., Engineer</figcaption>
+          </figure>
+
+          <figure class="card testimonial">
+            <blockquote>“The mobile app is slick and the reminders are spot on.”</blockquote>
+            <figcaption>— Amina R., Designer</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2 class="section-title">Simple, transparent pricing</h2>
+        <div class="grid pricing__grid">
+          <article class="card price">
+            <h3>Starter</h3>
+            <p class="price__value">Free</p>
+            <ul class="price__list">
+              <li>Up to 2 members</li>
+              <li>Basic reminders</li>
+              <li>Mobile & desktop</li>
+            </ul>
+            <a href="#cta" class="btn btn--ghost">Get started</a>
+          </article>
+
+          <article class="card price price--promoted" aria-label="Most popular plan">
+            <div class="badge">Most popular</div>
+            <h3>Pro</h3>
+            <p class="price__value">£9<span class="tiny">/user·month</span></p>
+            <ul class="price__list">
+              <li>Everything in Starter</li>
+              <li>Unlimited projects</li>
+              <li>Calendar sync</li>
+              <li>Priority support</li>
+            </ul>
+            <a href="#cta" class="btn">Start Pro trial</a>
+          </article>
+
+          <article class="card price">
+            <h3>Business</h3>
+            <p class="price__value">Let’s talk</p>
+            <ul class="price__list">
+              <li>SSO & advanced roles</li>
+              <li>Security reviews</li>
+              <li>Dedicated manager</li>
+            </ul>
+            <a href="#cta" class="btn btn--ghost">Contact sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="section cta">
+      <div class="container cta__inner">
+        <h2>Ready to ship work faster?</h2>
+        <p>Join thousands of teams using TaskFlow to get more done.</p>
+        <a href="#hero" class="btn">Start your free trial</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <a class="logo" href="#hero"><span class="logo-mark">TF</span><span class="logo-text">TaskFlow</span></a>
+      <p class="tiny">© <span id="year"></span> TaskFlow. All rights reserved.</p>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
