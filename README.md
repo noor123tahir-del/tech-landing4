@@ -1,6 +1,6 @@
 # Tech Landing Page
 
-A responsive SaaS landing page built with **HTML, CSS, and JavaScript** as part of the Elevvo Pathways frontend internship.
+A responsive SaaS landing page built with **HTML, CSS and JavaScript** as part of the Elevvo Pathways frontend internship.
 
 ## Features
 - Hero section with SaaS-style product graphic
